@@ -16,5 +16,7 @@ internal class Program
 
         //call the doDiceRoll class to execute the rolling
         dr.doDiceRoll(numRolls);
+
+        System.Console.WriteLine("Thank you for using the dice throwing simulator. Goodbye!");
     }
 }
